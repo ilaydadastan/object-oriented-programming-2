@@ -9,6 +9,8 @@ public class JobSeeker {
     List<Application> applications;
     Integer salaryExpectation;
 
-
-
+    public JobSeeker(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 }

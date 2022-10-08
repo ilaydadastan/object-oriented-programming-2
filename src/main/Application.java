@@ -4,10 +4,11 @@ public class Application {
     String name;
     int id;
 
-    public String applying(String firstName){
+    public String applying(JobSeeker jobSeeker){
 
-        return firstName + " applied to " + this.name;
+        return jobSeeker.firstName + jobSeeker.lastName + " applied to " + this.name;
     }
+
 
     public Application (String name){
         this.name=name;
